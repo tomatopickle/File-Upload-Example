@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>File Upload Example</title>
+   </head>
+   <body>
+      <h3>File Upload Example</h3>
+      <input accept="image/*" onchange="enableUpload()" type="file" name="file" id="fileInput">
+      <br>
+      <br>
+      <button id="uploadBtn" disabled onclick="uploadImage()">Upload Image</button>
+      <br>
+      <br>
+      <img id="image" src="" alt="Upload an Image" srcset="">
+      <script src="script.js"></script>
+   </body>
+</html>
